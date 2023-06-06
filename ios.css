@@ -123,6 +123,15 @@ body {
   align-items: center;
 }
 
+.links__link i {
+  color: #696969;
+}
+
+.links__link:hover i,
+.links__link:hover p {
+  color: #000000;
+}
+
 .links__link:last-child {
   border-bottom: none;
 }
@@ -137,15 +146,34 @@ body {
   text-decoration: underline;
 }
 
+.linsk__link:active {
+  color: #2572e5;
+}
+
+.linsk__link:focus {
+  outline: 2px dashed #2572e5;
+}
+
 .links__title {
+  color: #696969;
   margin: 0;
   min-width: 120px;
   font-weight: bolder;
 }
 
-footer {
-  margin: 0 0 40px 0;
+.footer__container {
+  width: 100%;
+  background-color: #ffffff;
+  color: #6b6b6b;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
+
+.footer__copyright {
+  font-size: 12px;
+}
+
 .button-link {
   margin-top: 10px;
   box-sizing: border-box;
